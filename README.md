@@ -20,6 +20,7 @@ To execute the script, use the following command (I used Anaconda Prompt):
 
 ```sh
 spark-submit ratings-counter.py
+```
 
 
 
