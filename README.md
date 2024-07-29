@@ -39,5 +39,21 @@ To execute the script, use the following command (I used Anaconda Prompt):
 spark-submit friends-by-age.py
 ```
 
+
+## Project 3: Minimum Temperatures by Weather Station Using Apache Spark
+
+### Project Description
+This project processes temperature data to find the minimum temperatures recorded by each weather station using the Apache Spark framework. The dataset contains historical temperature data.
+
+### Dataset
+The data used in this project is a synthetic dataset provided in a CSV file. Each row contains information about a weather station, the type of temperature entry (e.g., TMIN), and the temperature.
+
+### Running the Script
+To execute the script, use the following command (I used Anaconda Prompt):
+
+```sh
+spark-submit min-temperatures.py
+```
+
 ### Reference
 [Taming Big Data with Apache Spark - Hands On!](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/?couponCode=ST3MT72524)
